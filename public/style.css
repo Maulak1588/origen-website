@@ -1,0 +1,98 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: blanchedalmond
+}
+.nav-link{
+    color: #196025
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #99d84a;
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.main-title{
+    padding: 40px;
+}
+
+.main-title h1 {
+    font-size: 45px;
+}
+
+.main-title p {
+    font-size: 22px;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    padding: 39px;
+}
+
+main h2 {
+    font-size: 45px;
+    padding: 30px 0px 0px 40px;
+}
+
+main p {
+    font-size: 22px;
+    padding: 0px 40px 40px 40px;
+}
+
+/* .card-conteiner{
+    margin: 0 60px
+} */
+.row {
+    margin: 80px 0px
+}
+.cardOri{
+    text-align: center;
+    padding: 0 50px
+}
+
+footer img{
+    width: 30px;
+    margin: 40px 30px
+}
+
+footer h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+footer ul li {
+    color: whitesmoke;
+    list-style: none;
+}
+
+form {
+    padding-left: 450px;
+}
+
+form input{
+    width: 350px
+}
+
+footer form input{
+    border: 1px solid white;
+    border-radius: 3px
+}
+
+footer form button{
+    background-color: #648f2c;
+    color: #f1f5ec;
+    border-radius: 3px;
+    border: none;
+}
+
+.bg-color {
+    background-color: #99d84a;
+    align-items: center;
+}

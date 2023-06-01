@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <%- include('./partials/meta') %>
+</head>
+<body>
+  <%- include('./partials/header') %>
+  
+  <main>
+    <div class="container">
+      <h2 class="fw-bold">
+        Nuestros Platos
+      </h2>
+      <p>
+        Todos nuestros platos están basados en productos orgánicos. Esto quiere decir que al ingerirlos, estamos eligiendo cuidar nuestro cuerpo dejando de lado productos transgénicos, modificados genéticamente y cultivados en un entorno lleno de pesticidas
+      </p>
+    </div>
+  </main>
+  <section>
+    <div class="container">
+      <div class="row p-4">
+        <% JSONBody.forEach(dishes =>{ %>
+        <div class="cardOri col-4">
+          <h3><%= dishes.title %></h3>
+          <p><%= dishes.description %></p>
+          <img src="<%= dishes.img %>" alt="">
+        </div>
+        <% }) %> 
+      </div>
+    </div>
+  </section>
+  <%- include('./partials/footer') %>
+  
+</body>
+</html>
